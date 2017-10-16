@@ -1,0 +1,18 @@
+﻿<Window x:Class="BankApp1.Window1Loading"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BankApp1"
+        mc:Ignorable="d"
+        Title="Window1Loading" Height="300" Width="300">
+    <Grid AutomationProperties.IsRequiredForForm="True" ToolTip="User Name = user, Password = password">
+        <Button x:Name="login" Click="button" Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Width="164" Margin="63,199,0,0" IsDefault="True"/>
+        <TextBox x:Name="textUser" HorizontalAlignment="Left" Height="41" Margin="126,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="textPass" HorizontalAlignment="Left" Height="36" Margin="126,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" />
+        <TextBox x:Name="Warning" HorizontalAlignment="Left" Height="28" Margin="31,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" IsEnabled="False" IsHitTestVisible="False"/>
+        <Label x:Name="labelUser" Content="User Name" HorizontalAlignment="Left" Height="41" Margin="10,43,0,0" VerticalAlignment="Top" Width="101"/>
+        <Label x:Name="labelPass" Content="Password" HorizontalAlignment="Left" Height="36" Margin="10,108,0,0" VerticalAlignment="Top" Width="101"/>
+
+    </Grid>
+</Window>
